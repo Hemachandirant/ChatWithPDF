@@ -31,8 +31,8 @@ if document:
     for page in pdf_reader.pages:
         text += page.extract_text()
 
-    st.subheader("Document Content:")
-    st.write(text)
+    #st.subheader("Document Content:")
+    #st.write(text)
 
     # Input question above the Send button below the document content
     user_question = st.text_input("Ask a question:", "")
