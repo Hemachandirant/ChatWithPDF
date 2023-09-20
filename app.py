@@ -6,7 +6,7 @@ import openai
 from PyPDF2 import PdfReader
 
 # Set your OpenAI API key here
-openai.api_key = "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"
+openai.api_key = "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"
 
 # Function to have a chat-like conversation with the document
 def chat_with_document(document_text, user_message):
