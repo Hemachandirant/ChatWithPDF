@@ -4,7 +4,7 @@ import pdfminer
 from pdfminer.high_level import extract_text
 
 # Set your OpenAI API key here
-openai.api_key = "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"
+openai.api_key = ""
 
 # Function to have a chat-like conversation with the document
 def chat_with_document(document_text, user_message):
